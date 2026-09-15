@@ -1,0 +1,46 @@
+# Default experiment config. Everything an experiment reads comes from here and
+# is copied into runs/<name>/frozen_config.json together with module hashes.
+seed: 0
+seeds: [0, 1, 2]              # three seeds for anything stochastic (Section 8)
+data:
+  source: toy                 # toy | ptbxl
+  fs: 100                     # PTB-XL low-rate version is 100 Hz, 10 s, 12 leads
+  n_leads: 12
+  n_samples: 1000
+  ptbxl_root: /data/ptbxl     # only used when source == ptbxl
+  train_folds: [1, 2, 3, 4, 5, 6, 7, 8]
+  val_fold: 9                 # calibrate verifier thresholds here (E8)
+  test_fold: 10
+pipeline:
+  n_factors: 8
+  n_bins: 3
+  retrieval_k: 5
+  verifier_threshold: 0.6     # overwritten by matched-coverage calibration
+  clean_coverage_target: 0.9  # release coverage on clean fold-9 data that V1/V2/V3 are matched to
+allowed_sets:
+  norm:                       # 'mathematical limit'
+    type: linf
+    eps: 0.05                 # in normalized units (signal scaled so median R-peak = 1)
+  physio:                     # 'physiological limit' (Section 6), after Han et al.
+    type: physio
+    amp_frac_of_rpeak: 0.10   # per-lead amplitude bound relative to clean R-peak
+    band_hz: [0.5, 40.0]      # perturbation is band-limited to this range
+    rr_tol: 0.05              # relative tolerance on mean RR vs clean
+    qrs_tol_ms: 10.0
+    pr_tol_ms: 15.0
+    qtc_tol_ms: 20.0
+    min_sqi: 0.5
+    forgery:                  # semantic-forgery tags, reported in their own table
+      st_dev_mv: 0.1
+      qrs_wide_ms: 120.0
+attack:
+  steps: 40
+  step_size: 0.005
+  restarts: 2
+  budget_B: [1, 10, 50, 100]  # submission budgets for IRR_B
+  surrogate_weight: 1.0       # A1/A2 verifier term weight lambda
+  a2_max_rounds: 100
+experiments:
+  e5_restore_k: [1, 3, 5]
+  e5_random_draws: 20
+  bootstrap_draws: 1000
