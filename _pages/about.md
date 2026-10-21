@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm Ishika! I'm a PhD student in Electrical and Computer Engineering at Arizona State University, where I work with [Prof. Krishnendu Chakrabarty](https://search.asu.edu/profile/4669916) in the [ACME lab](https://acme.asu.edu/).
+Hi, I'm Ishika! I'm a PhD student in Electrical and Computer Engineering at Arizona State University. I work with [Prof. Krishnendu Chakrabarty](https://search.asu.edu/profile/4669916) in the [ACME lab](https://acme.asu.edu/).
 
-My thesis work is in semiconductors, focused on hardware security for chiplet-based systems and adversarial security of machine learning. I like problems where the thing checking a system can be fooled by the system itself, like a chiplet that quietly sags the shared power rail while its neighbor decides which lanes are broken, or an ECG model asked to verify its own diagnosis by an attacker who knows how the verifier works.
+My thesis work is in semiconductors. I focus on hardware security for chiplet-based systems and adversarial security of machine learning. I like problems where the thing checking a system can be fooled by the system itself. One example is a chiplet that sags the shared power rail while its neighbor decides which lanes are broken. Another is an ECG model that checks its own diagnosis against an attacker who knows how the check works.
 
-I have a diverse research background spanning RTL design, neuroengineering, control theory, and machine learning, and I love learning about everything.
+I have a diverse research background in RTL design and neuroengineering as well as control theory and machine learning. I love learning about everything.
 
 My long-term goal is to become a professor of engineering who advocates for people with disabilities.
 
-I'm a recipient of the [Intel Scholarship and Fellowship Program (ISFP) fellowship](https://acme.asu.edu/awards-and-recognitions), managed by the Semiconductor Research Corporation, and my work is also supported by the NSF PRIVIPHY project on privacy for physiological signals, a collaboration between ASU, UC Irvine, and CSU Dominguez Hills.
+I'm a recipient of the [Intel Scholarship and Fellowship Program (ISFP) fellowship](https://acme.asu.edu/awards-and-recognitions) managed by the Semiconductor Research Corporation. My work is also supported by the NSF PRIVIPHY project on privacy for physiological signals. It is a collaboration between ASU and UC Irvine and CSU Dominguez Hills.
 
 Research
 ======
