@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Electrical and Computer Engineering at Arizona State University, advised by [Prof. Krishnendu Chakrabarty](https://search.asu.edu/profile/4669916). My PhD is supported by an Intel/SRC fellowship and by the NSF PRIVIPHY project on privacy for physiological signals, a collaboration between ASU, UC Irvine, and CSU Dominguez Hills.
+Hi, I'm Ishika! I'm a PhD student in Electrical and Computer Engineering at Arizona State University, where I work with [Prof. Krishnendu Chakrabarty](https://search.asu.edu/profile/4669916) in the [ACME lab](https://acme.asu.edu/).
 
-My work sits where hardware security, trustworthy machine learning, and control theory meet. I care about whether a system's own checks can still be trusted when part of it is working against them, and I study it across hardware and learning systems.
+I like problems where the thing checking a system can be fooled by the system itself. A chiplet that quietly sags the shared power rail while its neighbor decides which lanes are broken. An ECG model asked to verify its own diagnosis by an attacker who knows how the verifier works. A brain-computer interface where the user and the decoder keep changing each other. My background spans RTL design, control theory, and machine learning, and I move between them depending on what the question needs.
+
+I'm a recipient of the [Intel Scholarship and Fellowship Program (ISFP) fellowship](https://acme.asu.edu/awards-and-recognitions), managed by the Semiconductor Research Corporation, and my work is also supported by the NSF PRIVIPHY project on privacy for physiological signals, a collaboration between ASU, UC Irvine, and CSU Dominguez Hills.
 
 Research
 ======
@@ -28,5 +30,6 @@ I hold a BS and MS in Computer Engineering from Case Western Reserve University 
 News
 ======
 
-- **Sept 2026:** My review, *Co-Adaptive Learning and Domain Adaptation Bridge the Translational Gap in Neuroprosthetic Control*, was accepted in Frontiers in Neuroscience (Neuroprosthetics).
+- **Fall 2026:** Named an [Intel ISFP Fellow](https://acme.asu.edu/awards-and-recognitions) (Intel Scholarship and Fellowship Program, managed by SRC).
+- **Sept 2026:** My review, [*Co-Adaptive Learning and Domain Adaptation Bridge the Translational Gap in Neuroprosthetic Control*](https://doi.org/10.3389/fnins.2026.1974861), was accepted in Frontiers in Neuroscience (Neuroprosthetics).
 - **Fall 2026:** Started my PhD at Arizona State University in Prof. Chakrabarty's group.
