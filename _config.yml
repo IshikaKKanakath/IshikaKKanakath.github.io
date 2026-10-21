@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : Ishika Krishnan Kanakath
 title_separator          : "-"
 name                     : Ishika Krishnan Kanakath
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Ishika Kanakath, PhD student in Electrical and Computer Engineering at Arizona State University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://ishikakkanakath.github.io/"
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,8 +26,8 @@ author:
   avatar           : "profile1.jpeg"
   name             : "Ishika Kanakath"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Student at <br>University of Washington<br>Electrical & Computer Engineering"
-  location         : #"Earth"
+  bio              : "PhD Student<br>Electrical & Computer Engineering<br>Arizona State University"
+  location         : "Tempe, AZ"
   employer         : #"Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
