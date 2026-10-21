@@ -42,4 +42,5 @@ News
 
 - **Fall 2026:** Named an [Intel ISFP Fellow](https://acme.asu.edu/awards-and-recognitions) (Intel Scholarship and Fellowship Program managed by SRC).
 - **Sept 2026:** My review [*Co-Adaptive Learning and Domain Adaptation Bridge the Translational Gap in Neuroprosthetic Control*](https://doi.org/10.3389/fnins.2026.1974861) was just accepted in Frontiers in Neuroscience (Neuroprosthetics).
+- **Fall 2026:** Received my MS in Electrical Engineering from the University of Washington.
 - **Fall 2026:** Started my PhD at Arizona State University in Prof. Chakrabarty's group.
