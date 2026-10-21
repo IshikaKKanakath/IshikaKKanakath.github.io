@@ -11,6 +11,8 @@ Hi, I'm Ishika! I'm a PhD student in Electrical and Computer Engineering at Ariz
 
 I like problems where the thing checking a system can be fooled by the system itself. A chiplet that quietly sags the shared power rail while its neighbor decides which lanes are broken. An ECG model asked to verify its own diagnosis by an attacker who knows how the verifier works. A brain-computer interface where the user and the decoder keep changing each other. My background spans RTL design, control theory, and machine learning, and I move between them depending on what the question needs.
 
+My long-term goal is to become a professor of engineering and to advocate for people with disabilities, both through research on assistive and neural technology and by working to make engineering more accessible to disabled students and researchers.
+
 I'm a recipient of the [Intel Scholarship and Fellowship Program (ISFP) fellowship](https://acme.asu.edu/awards-and-recognitions), managed by the Semiconductor Research Corporation, and my work is also supported by the NSF PRIVIPHY project on privacy for physiological signals, a collaboration between ASU, UC Irvine, and CSU Dominguez Hills.
 
 Research
