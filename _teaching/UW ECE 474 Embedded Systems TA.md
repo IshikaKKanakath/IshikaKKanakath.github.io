@@ -8,14 +8,13 @@ date: 2024-09-26
 location: "Seattle, Washington, USA"
 ---
 
-Teaching assistant for ECE/CSE 474 Introduction to Embedded Systems from 2024 to 2026. The course focuses on the software side of real-time embedded microcomputer systems and covers their specification and design through implementation and testing.
+Teaching assistant for ECE/CSE 474 Introduction to Embedded Systems from 2024 to 2026. The course covers the software side of real-time embedded microcomputer systems from specification and design through implementation and testing.
 
 Course Content
 ======
-C programming for embedded systems. Tasks and scheduling. Inter-task communication. Operating system basics and memory management. Basic digital signal processing with digital filters and FFTs. System performance and optimization. Safety and reliability with fault tolerance and testing.
-
-Responsibilities
-======
-- Led lab sessions on microcontroller hardware and embedded C
-- Helped students debug timing and scheduling problems in their designs
-- Held office hours and graded labs and exams with detailed feedback
+- C programming and software design for embedded systems
+- Tasks and scheduling with inter-task communication
+- Operating system basics and memory management
+- Digital filters and FFTs
+- Performance and optimization
+- Safety and reliability with fault tolerance and system testing
