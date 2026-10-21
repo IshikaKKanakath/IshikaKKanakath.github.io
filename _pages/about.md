@@ -20,16 +20,22 @@ I'm a recipient of the [Intel Scholarship and Fellowship Program (ISFP) fellowsh
 Research
 ======
 
-**Security of chiplet-based systems.** Advanced packages put dies from different vendors on a shared power delivery network and shared interconnect. I study how that sharing opens new attack surfaces, with a current focus on the integrity of die-to-die link test and repair: how a co-located die can corrupt a UCIe lane-repair decision through cross-die supply droop, and what on-chip sensing can detect it. I am also writing a survey on security and trust in heterogeneous integration.
+### Security of chiplet-based systems
 
-**Security and privacy of AI for physiological signals.** I evaluate agentic ECG-language-model pipelines against adaptive attackers whose perturbations stay physiologically plausible, and I study how well ECG anonymization holds up against attackers who can retrain.
+Advanced packages put dies from different vendors on a shared power delivery network and a shared interconnect. I study the new attack surfaces this sharing opens up. My current focus is the integrity of die-to-die link test and repair. I look at how a nearby die can corrupt a UCIe lane-repair decision through cross-die supply droop and how on-chip sensing can detect it. I am also writing a survey on security and trust in heterogeneous integration.
 
-**Co-adaptive learning and brain-computer interfaces.** Before ASU I was at the University of Washington with [Sam Burden](https://faculty.washington.edu/sburden/bio/), where I worked on co-adaptive BCIs, in which the user and the decoder learn from each other at the same time. That work continues as theory papers on decoder updates framed as performative prediction and on budgeted channel selection under co-adaptive drift.
+### Security and privacy of AI for physiological signals
+
+I evaluate agentic ECG-language-model pipelines against adaptive attackers whose perturbations stay physiologically plausible. I also study how well ECG anonymization holds up against attackers who can retrain.
+
+### Co-adaptive learning and brain-computer interfaces
+
+Before ASU I was at the University of Washington with [Sam Burden](https://faculty.washington.edu/sburden/bio/). There I worked on co-adaptive BCIs where the user and the decoder learn from each other at the same time. That work continues as theory papers on decoder updates framed as performative prediction and on budgeted channel selection under co-adaptive drift.
 
 Background
 ======
 
-I hold a BS and MS in Computer Engineering from Case Western Reserve University and an MS in Electrical Engineering from the University of Washington. My CWRU master's thesis, funded by NASA, developed adaptive control for wire arc additive manufacturing. With Prof. Alexis E. Block I studied how interaction modality affects human comfort during human-robot collaboration on Baxter robots. At CWRU I was a [SOURCE STEM Scholar](https://case.edu/humanfusions/Ishika%20source%20stem%20scholarship) and received the [Robert L. Shurter Prize](https://case.edu/humanfusions/Ishika%20Kanakath). I have also done RTL design work in industry at Cadence and MACOM.
+I hold a BS and MS in Computer Engineering from Case Western Reserve University and an MS in Electrical Engineering from the University of Washington. My master's thesis at CWRU was funded by NASA and developed adaptive control for wire arc additive manufacturing. With Prof. Alexis E. Block I studied how interaction modality affects human comfort during human-robot collaboration on Baxter robots. At CWRU I was a [SOURCE STEM Scholar](https://case.edu/humanfusions/Ishika%20source%20stem%20scholarship) and received the [Robert L. Shurter Prize](https://case.edu/humanfusions/Ishika%20Kanakath). I have also done RTL design work in industry at Cadence and MACOM.
 
 News
 ======
